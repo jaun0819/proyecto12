@@ -4,21 +4,25 @@
     /* box-sizing: border-box; */
   }
 .toyota1-visible{
+    transition: 2s;
     width: 100%;
     position: fixed;
     left: 0;
 }
 .toyota3-visible{
+    transition: 2s;
     width: 100%;
     position: fixed;
     left: 0;
 }
 .toyota1-oculta{
+    transition: 2s;
     width: 100%;
     position: fixed;
     left: -100%;
 }
 .toyota3-oculta{
+    transition: 2s;
     width: 100%;
     position: fixed;
     left: 100%;
@@ -29,7 +33,16 @@
     top: 500px;
     right: 20px;
     
+    
  
+}
+.flecha1{
+    cursor: pointer;
+    position: fixed;
+    width: 110px;
+    top: 465px;
+   
+    left: 20px;  
 }
 
 .mi-circulo{
@@ -42,4 +55,34 @@
     align-items: center;
     color: white;
     font-weight: 900;
+}
+.circulo{
+position: fixed;
+height: 40px;
+width: 100%;
+bottom: 0;
+display: flex;
+justify-content: center;
+}
+.circulo1{
+    display: flex;
+    justify-content: center;
+
+    
+    width: 20px;
+    height: 20px;
+    background-color: rgb(48, 48, 48);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.circulo2{
+    display: flex;
+    justify-content: center;
+    
+    
+    width: 20px;
+    height: 20px;
+    background-color: rgb(96, 96, 96);
+    border-radius: 50%;
+    margin-right: 10px;
 }
