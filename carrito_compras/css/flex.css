@@ -1,0 +1,23 @@
+
+.item{
+    height: 30px;
+    width: 400px;
+    background-color: gold;
+    margin: 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.item-sidebar{
+    flex-grow: 1;
+}
+fieldset{
+    width: 500px;
+    margin-left: 350px;
+}
+.parrafo{
+    margin-left: 240px;
+    margin-bottom: 400px;
+}

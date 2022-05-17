@@ -1,0 +1,162 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+  }
+  
+  div:hover {
+    width: 300px;
+  }
+  .class {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 3s, height 4s;
+  }
+  
+  .class:hover {
+    width: 300px;
+    height: 300px;
+  }
+
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+  }
+  
+  #div1 {transition-timing-function: linear;}
+  #div2 {transition-timing-function: ease;}
+  #div3 {transition-timing-function: ease-in;}
+  #div4 {transition-timing-function: ease-out;}
+  #div5 {transition-timing-function: ease-in-out;}
+  
+  div:hover {
+    width: 300px;
+  }
+  .class1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 5s;
+    transition-delay: 1000ms;
+  }
+  
+  .class1:hover {
+    width: 300px;
+  }
+
+  .class2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  .class2:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+  }
+  .class3 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+  }
+  
+  .class3:hover {
+    width: 300px;
+  }
+  H2{
+      color: rgb(204, 58, 131);
+  }
+  .class4 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: translate(50px,100px);
+  }
+  .class5 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  .class5#myDiv {
+    transform: rotate(20deg);
+  }
+  .class6 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  .class6#mydiv {
+    transform: rotate(-20deg);
+  }
+  .class7 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scale(2,3);
+  }
+  .class8{
+      margin: 150px;
+      width: 200px;
+      height: 100px;
+      background-color: yellow;
+      border: 1px solid black;
+      transform: scale(0.5,0.5);
+  }
+  .class9 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleX(2);
+  }
+  .class10 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scaleY(3);
+  }
+  .class11 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  .class11#myDivv {
+    transform: skewX(20deg);
+  }
+  .class12 {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  .class12#myDiv1 {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+  }
+  
+  .class12#myDiv2 {
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+  }
+  

@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+}
+.container-flex-1{
+    display: flex;
+    background-color: darkcyan;
+}
+.item{
+    height: 20px;
+    background-color: gold;
+    margin: 20px;
+    font-size: 1.5em;
+    color: white;
+}
+.item-menu{
+    width: 200px;
+}
+
+.item-contein{
+    flex-grow: 1;
+}
+.item-sidebar{
+    flex-grow: 1;
+}

@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+}
+.container-flow-1{
+    display: flex;
+    background-color: tomato;
+    flex-flow: wrap;
+}
+.container-flow-2{
+    display: flex;
+    background-color: tomato;
+    flex-flow: nowrap;
+}
+.container-flow-3{
+    
+    display: flex;
+    background-color: tomato;
+    flex-flow: column wrap;
+    height: 500px;
+}
+.container-flow-4{
+    
+    display: flex;
+    background-color: tomato;
+    flex-flow: column nowrap;
+    height: 500px;
+}
+/*  .container-flex-2{
+display: flex;
+background-color: tomato;
+flex-wrap: wrap;
+}*/
+.item-flex{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    margin: 20px;
+    font-size: 1.5em;
+    color: white;
+}

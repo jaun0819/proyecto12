@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar{
+    
+    color: white;
+    width: 100%;
+    /*position: fixed;*/
+     top: 0; 
+     left: 0;
+}
+ul{
+     background-color: rgb(220, 2,2, .5);
+     color: white;
+    text-align: right;
+    width: 100%;
+    position: fixed;
+    
+}
+li{
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 1.5em;
+    padding: 20px;
+}
+p{
+    font-size: 1.5em;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+img.logo-pc{
+    float: left;
+  
+}
+.img-user{
+    position: fixed;
+bottom: 20px;
+right: 15px;
+}

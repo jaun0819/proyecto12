@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gainsboro;
+}
+nav{
+    background-color: rgb(222,8,.9);
+}
+h1{
+    font-size: 2.2em;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+ul{
+    padding: 30px;
+    text-align: right;
+    list-style: none;
+}
+li{
+    display: inline-block;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 1.2em;
+}
+.icon{
+    margin-right: 7px;
+}
+.menu-bar{
+    display: none;
+}
+.children{
+    display: none;
+    position: absolute;
+    background-color: #011826;
+    text-align: left;
+   top: 8.7%;
+}
+
+ul li:hover .children{
+    display: block;
+    text-align: left;
+}
+.children li{
+   display: block;
+   border-bottom: 1px solid rgb(255, 255, 255,.5);
+   top: 50%;
+}
+.children li a {
+    display: block;
+}
+.children li a span{
+    float: right;
+    position: relative;
+    top: 3px;
+    margin-right: 0;
+}
+

@@ -1,0 +1,848 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/booststrap.css">
+    <link rel="stylesheet" href="css/booststrap-offline.css">
+   
+    <title>Document</title>
+</head>
+<body>
+    <h1>Booststrap-Elementos Básicos</h1>
+    <h2>container</h2>
+    <h3>==container==</h3>
+    <div class="container  style-container">container</div>
+    <h3>==container==</h3>
+    <div class="container-sm  style-container">container <small></small></div>
+    <h3>==container==</h3>
+    <div class="container-md  style-container">container md</div>
+    <h3>==container==</h3>
+    <div class="container-lg style-container">container lg</div>
+    <h3>==container==</h3>
+    <div class="container-xl  style-container">container xl</div>
+    <h3>==container==</h3>
+    <div class="container-xxl  style-container">container xxl</div>
+    <h3>==container==</h3>
+    <div class="container-fluid  style-container">container fluid</div>
+    <h2>columnas</h2>
+<div class="row style-row">
+    
+    <div class="col style-col">col-1</div>
+    <div class="col style-col">col-2</div>
+    <div class="col style-col">col-3</div>
+    <div class="col style-col">col-4</div>
+    <div class="col style-col">col-5</div>
+    <div class="col style-col">col-6</div>
+    <div class="col style-col">col-7</div>
+    <div class="col style-col">col-8</div>
+    <div class="col style-col">col-9</div>
+    <div class="col style-col">col-10</div>
+    <div class="col style-col">col-11</div>
+    <div class="col style-col">col-12</div>
+</div>
+<h2>Columnas Independientes</h2>
+<div class="row style-row">
+    
+    <div class="col-2 style-col">col-1</div>
+    <div class="col-1 style-col">col-2</div>
+    <div class="col-4 style-col">col-3</div>
+    <div class="col-1 style-col">col-4</div>
+    <div class="col-1 style-col">col-5</div>
+    <div class="col-3 style-col">col-6</div>
+   
+</div>
+<h2>Formulario Básico con Booststrap</h2>
+<div class="container">
+<div class="row">
+        <div class="mb-3  col-6">
+            <label for="exampleFormControlInput1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Por favor,ingrese su nombre">
+          </div>
+
+
+            <div class="mb-3  col-6">
+              <label for="exampleFormControlInput1" class="form-label"></label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Por favor,ingrese sus apellidos">
+            </div>
+</div>
+<div class="row">
+        <div class="mb-3  col-6">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Por favor,ingrese su direccion">
+        </div>
+
+
+        <div class="mb-3  col-6">
+          <label for="exampleFormControlInput1" class="form-label"></label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Por favor,ingrese su telefono">
+        </div>
+</div>
+<div class="row">
+                <div class="mb-3  col-6">
+                  <label for="exampleFormControlInput1" class="form-label"></label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Por favor,ingrese su correo electronico">
+                </div>
+                <div class="mb-3  col-6">
+                    <label for="exampleFormControlInput1" class="form-label"></label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Por favor,ingrese su municipio">
+                  </div>
+</div>
+
+
+ <div class="mb-3 ">
+                          <label for="exampleFormControlTextarea1" class="form-label"></label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+ </div>
+</div>
+                                    <h2>File Input</h2>
+        <div class="container">
+            <div class="mb-3">
+                                        <label for="formFile" class="form-label">Default file input example</label>
+                                        <input class="form-control" type="file" id="formFile">
+                                      </div>
+                                      <div class="mb-3">
+                                        <label for="formFileMultiple" class="form-label">Multiple files input example</label>
+                                        <input class="form-control" type="file" id="formFileMultiple" multiple>
+             </div>
+        </div>
+
+        <h2>Datalits</h2>
+    <div class="container style-container2">
+        <label for="exampleDataList" class="form-label">Datalist example</label>
+        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+        <datalist id="datalistOptions">
+          <option value="San Agustin">
+          <option value="Salado Blanco">
+          <option value="Neiva">
+          <option value="Pitalito">
+          <option value="Acevedo">
+        </datalist>
+    </div>
+    <h2>select</h2>
+    <div class="container style-container2">
+        <label >ingrese la localidad</label>
+        <select class="form-select" aria-label="Default select example">
+          <option value="1">Kennedy</option>
+          <option value="2">Bosa</option>
+          <option value="3">Usme</option>
+          <option value="4">Puente Aranda</option>
+          <option value="5">Chapinero</option>
+        </select>
+    </div>
+            <h2>Check</h2>
+            <div class="container">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  JavaScript
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                 PHP
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                  C#
+                </label>
+            </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                 Java
+                </label>
+              </div>
+            </div>
+                    <h2>Radius</h2>
+                    <div class="container">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                              Masculino
+                            </label>
+                        </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Femenino
+                            </label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                              Indefinido
+                            </label>
+                          </div>
+                    </div>
+                    <h2>Floating labels</h2>
+                    <div class="container">
+                      <div class="row">
+                        <div class="mb-3  col-6"> 
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="Por favor,ingrese su nombre">
+                      <label for="floatingInput">Por favor,ingrese su nombre</label>
+                    </div>
+                    </div>
+                    <div class="mb-3  col-6"> 
+                    <div class="form-floating">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Por favor,ingrese sus apellidos">
+                      <label for="floatingPassword">Por favor,ingrese sus apellidos</label>
+                    </div>
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div class="mb-3  col-6"> 
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="Por favor,ingrese su correo electronico">
+                  <label for="floatingInput">Por favor,ingrese su correo electronico</label>
+                </div>
+                </div>
+                <div class="mb-3  col-6"> 
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Por favor,ingrese su municipio">
+                  <label for="floatingPassword">Por favor,ingrese su municipio</label>
+                </div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="mb-3  col-6"> 
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="Por favor,ingrese su direccion">
+              <label for="floatingInput">Por favor,ingrese su direccion</label>
+            </div>
+            </div>
+            <div class="mb-3  col-6"> 
+            <div class="form-floating">
+              <input type="password" class="form-control" id="floatingPassword" placeholder="Por favor,ingrese su telefono">
+              <label for="floatingPassword">Por favor,ingrese su telefono</label>
+            </div>
+          </div>
+          </div>
+                  </div>
+              
+                  <h2>Validation</h2>
+                
+                  <div class="container container-style">
+                    <form class="row g-3 needs-validation" novalidate>
+                      <div class="col-md-4">
+                        <label for="validationCustom01" class="form-label">Nombres</label>
+                        <input type="text" class="form-control" id="validationCustom01" >
+                        <div class="invalid-feedback">
+                          ingrese un nombre.
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <label for="validationCustom02" class="form-label">Apellidos</label>
+                        <input type="text" class="form-control" id="validationCustom02" >
+                        <div class="invalid-feedback">
+                          ingrese un apellido.
+                        </div>
+                      </div>
+                      <div class="col-md-4">
+                        <label for="validationCustomUsername" class="form-label">Usuario</label>
+                        <div class="input-group has-validation">
+                          <span class="input-group-text" id="inputGroupPrepend">@</span>
+                          <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                          <div class="invalid-feedback">
+                            Por favor, elija un nombre de usuario.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <label for="validationCustom03" class="form-label">Municipio</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                          Proporcione un municipio válido.
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="validationCustom04" class="form-label">Departamento</label>
+                        <select class="form-select" id="validationCustom04" required>
+                          <option selected disabled value="">Huila</option>
+                          <option>Caqueta</option>
+                          <option>Choco</option>
+                          <option>Cundinamarca</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Seleccione un estado válido.
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="validationCustom05" class="form-label">Telefono</label>
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <div class="invalid-feedback">
+                          Proporcione un numero de telefono.
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                          <label class="form-check-label" for="invalidCheck">
+                            Agree to terms and conditions
+                          </label>
+                          <div class="invalid-feedback">
+                            You must agree before submitting.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                      </div>
+                    </form>
+
+
+                    <h2>Acordion</h2>
+                    <div class="container container-style">
+                      <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Accordion Item #1
+                            </button>
+                          </h2>
+                          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Accordion Item #2
+                            </button>
+                          </h2>
+                          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Accordion Item #3
+                            </button>
+                          </h2>
+                          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                    <h2>Alert</h2>
+                    <div class="container container-style">
+                      <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-primary" id="liveAlertBtn">comprar</button>
+                    </div>
+                    <h2>Positioned</h2>
+                    <button type="button" class="btn btn-dark position-relative" >
+                     <img src="img/cart.svg" alt="cart">
+                      <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                        1+
+                        <span class="visually-hidden">unread messages</span>
+                      </span>
+                    </button>
+                    <h2>breadcrum</h2>
+                    <div class="container container-style">
+                      <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item active" aria-current="page">Home</li>
+                        </ol>
+                      </nav>
+                      
+                      <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">Home</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Library</li>
+                        </ol>
+                      </nav>
+                      
+                      <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                          <li class="breadcrumb-item"><a href="#">Home</a></li>
+                          <li class="breadcrumb-item"><a href="#">Library</a></li>
+                          <li class="breadcrumb-item active" aria-current="page">Data</li>
+                        </ol>
+                      </nav>
+                    </div>
+                    <h2>Buttons</h2>
+                    <div class="container container-style">
+                      <button type="button" class="btn btn-primary">Primary</button>
+                      <button type="button" class="btn btn-secondary">Secondary</button>
+                      <button type="button" class="btn btn-success">Success</button>
+                      <button type="button" class="btn btn-danger">Danger</button>
+                      <button type="button" class="btn btn-warning">Warning</button>
+                      <button type="button" class="btn btn-info">Info</button>
+                      <button type="button" class="btn btn-light">Light</button>
+                      <button type="button" class="btn btn-dark">Dark</button>
+                      
+                      <button type="button" class="btn btn-link">Link</button>
+
+                    </div>
+                    <h2>Button group</h2>
+                    <div class="container container-style">
+                      <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-dark">Left</button>
+                        <button type="button" class="btn btn-warning">Middle</button>
+                        <button type="button" class="btn btn-success">Right</button>
+                      </div>
+                    </div>
+                    <h2>Cart</h2>
+                    <div class="container container-style">
+                      <div class="card" style="width: 18rem;">
+                        <img src="img/pc_450x579.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                      </div>
+                    </div>
+                    <h2>caroucel</h2>
+                    <div id="carouselExampleCaptions" class="carousel carousel-dark slide " data-bs-ride="carousel">
+                      <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      </div>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-slide-to="200">
+                          <img src="img/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.jpg" class="d-block w-150" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <!-- <p>Some representative placeholder content for the first slide.</p> -->
+                          </div>
+                        </div>
+                        <div class="carousel-item" data-bs-slide-to="200">
+                          <img src="img/audifonos.jpg" class="d-block w-150" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <!-- <p>Some representative placeholder content for the second slide.</p>  -->
+                          </div>
+                        </div>
+                        <div class="carousel-item" data-bs-slide-to="200">
+                          <img src="img/Razer Basilisk Ultimate Gaming Mouse.png" class="d-block w-150" alt="...">
+                          <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                           <!--  <p>Some representative placeholder content for the third slide.</p> -->
+                          </div>
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                    <h2>Close Button</h2>
+                    <div class="container container-style">
+                      <button type="button" class="btn-close" aria-label="Close"></button>
+                    </div>
+                    <h2>Collapse</h2>
+                    <div class="container container-style">
+                      <p>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          Link with href
+                        </a>
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Button with data-bs-target
+                        </button>
+                      </p>
+                      <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                        </div>
+                      </div>
+                    </div>
+                    <h2>Dropdowns</h2>
+                    <div class="container container-style">
+                      <div class="btn-group">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                          Right-aligned menu
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                          Left-aligned, right-aligned lg
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-lg-end">
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false">
+                          Right-aligned, left-aligned lg
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="btn-group dropstart">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropstart
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="btn-group dropend">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropend
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        </ul>
+                      </div>
+                      
+                      <div class="btn-group dropup">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropup
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                          <li><a class="dropdown-item" href="#">Menu item</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                    <h2>List Group</h2>
+                    <div class="container container-style">
+                      <ol class="list-group list-group-numbered">
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Content for list item
+                          </div>
+                          <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Content for list item
+                          </div>
+                          <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-start">
+                          <div class="ms-2 me-auto">
+                            <div class="fw-bold">Subheading</div>
+                            Content for list item
+                          </div>
+                          <span class="badge bg-primary rounded-pill">14</span>
+                        </li>
+                      </ol>
+                    </div>
+                    <h2>Modal</h2>
+                    <div class="container container-style">
+                      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Open modal for @mdo</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">Open modal for @fat</button>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@getbootstrap">Open modal for @getbootstrap</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">Recipient:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send message</button>
+      </div>
+    </div>
+  </div>
+</div>
+<h2>Navs y tabs</h2>
+<div class="container container-style">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Active</a>
+    </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Link</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled">Disabled</a>
+    </li>
+  </ul>
+</div>
+<h2>Navbar</h2>
+<div class="container container-style">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
+<h2>Offcavas</h2>
+<div class="container container-style">
+  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="offcanvasWithBackdrop">Enable backdrop (default)</button>
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">Enable both scrolling & backdrop</button>
+
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Colored with scrolling</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Try scrolling the rest of the page to see this option in action.</p>
+  </div>
+</div>
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Offcanvas with backdrop</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>.....</p>
+  </div>
+</div>
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <p>Try scrolling the rest of the page to see this option in action.</p>
+  </div>
+</div>
+</div>
+<h2>Pagination</h2>
+<div class="container container-style">
+  <nav aria-label="...">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <span class="page-link">Previous</span>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active" aria-current="page">
+        <span class="page-link">2</span>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<h2>Placeholders</h2>
+<div class="container container-style">
+  <div class="card">
+    <img src="..." class="card-img-top" alt="...">
+  
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+  
+  <div class="card" aria-hidden="true">
+    <img src="img/tkl.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title placeholder-glow">
+        <span class="placeholder col-6"></span>
+      </h5>
+      <p class="card-text placeholder-glow">
+        <span class="placeholder col-7"></span>
+        <span class="placeholder col-4"></span>
+        <span class="placeholder col-4"></span>
+        <span class="placeholder col-6"></span>
+        <span class="placeholder col-8"></span>
+      </p>
+      <a href="#" tabindex="-1" class="btn btn-primary disabled placeholder col-6"></a>
+    </div>
+  </div>
+</div>
+<h2>Popovers</h2>
+
+<button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+</div>
+<h2>Progress</h2>
+<div class="container container-style">
+  <div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+  </div>
+</div>
+<h2>Scrollspy</h2>
+<div class="container container-style">
+  <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <ul class="nav nav-pills">
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading1">First</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#scrollspyHeading2">Second</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+    <h4 id="scrollspyHeading1">First heading</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis culpa quod voluptatibus excepturi rerum, tenetur omnis facilis. Atque quisquam nihil sapiente aliquid magni architecto dolore deleniti. Deserunt tempore iusto beatae?</p>
+    <h4 id="scrollspyHeading2">Second heading</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo obcaecati pariatur inventore deleniti non quos illum, facere, dicta sunt sapiente consectetur velit quasi nostrum molestiae esse omnis perspiciatis molestias maxime!</p>
+    <h4 id="scrollspyHeading3">Third heading</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nihil quo aliquam hic. Quasi quis beatae omnis adipisci enim nesciunt quam, aliquam totam? Numquam repellat maxime, minus nostrum obcaecati ullam!</p>
+    <h4 id="scrollspyHeading4">Fourth heading</h4>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quaerat veritatis harum et velit facere repudiandae eius, laborum perspiciatis numquam dolore quisquam, illo accusamus ratione molestias vitae, voluptatem delectus odio.</p>
+    <h4 id="scrollspyHeading5">Fifth heading</h4>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus aperiam ducimus totam doloribus, quia sed similique! Illo aliquam alias voluptate exercitationem, qui quibusdam architecto, velit aliquid saepe minima cum dolore!</p>
+  </div>
+</div>
+<h2>Spinners</h2>
+<div class="container container-style">
+  <div class="text-center">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+</div>
+<h2>Toasts</h2>
+<div class="container container-style">
+  <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small>11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
+  </div>
+</div>
+
+</div>
+<h2>Tooltips</h2>
+<div class="container container-style">
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="Tooltip on top">
+    Tooltip on top
+  </button>
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="right" title="Tooltip on right">
+    Tooltip on right
+  </button>
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+    Tooltip on bottom
+  </button>
+  <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="left" title="Tooltip on left">
+    Tooltip on left
+  </button>
+</div>
+                    </div>
+                  </div>
+                  <script src="scrip/nuevoboostrap.js"></script>
+                  <script src="scrip/popper.min.js"></script>
+                  <script src="scrip/modal.js"></script>
+                  <script src="scrip/boostrap.js"></script>
+                  <script src="scrip/bustra.js"></script>
+                  <script src="scrip/bootstrap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+.container-flex-1{
+display: flex;
+background-color: darkcyan;
+justify-content: space-between;
+}
+.container-flex-2{
+    display: flex;
+    background-color: darkcyan;
+    justify-content:space-around;
+}
+.container-flex-3{
+    display: flex;
+    background-color: darkcyan;
+    justify-content: flex-start;
+}
+.container-flex-4{
+    display: flex;
+    background-color: darkcyan;
+    justify-content: flex-end;
+}
+.container-flex-5{
+    display: flex;
+    background-color: darkcyan;
+    justify-content:center;
+    /* height: 300px; */
+}
+.container-flex-6{
+    display: flex;
+    background-color: darkcyan;
+    justify-content: stretch;
+}
+.item-flex{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    margin: 20px;
+    font-size: 1.5em;
+    color: white;
+}

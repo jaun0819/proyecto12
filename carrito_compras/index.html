@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+
+    <link rel="stylesheet" href="css/carrito_compras.css">
+</head>
+
+<body>
+    <center>
+        <fieldset class="contenedorP">
+            <div class="contenedorP">
+                <div class="contenSutTotal">Subtotal:<label id="Subtotal" class="precio"></label></div>
+                <div class="conten1">Proceder al pago(<label id="numeroProductos">1 producto)</label></div>
+                
+                <div class="imagen"><img src="img/playyy.jpg" width="157px" alt=""></div><br>
+                <div class="descripcion"><br>
+                    <p>PS5 incluirá retrocompatibilidad con la mayoría de juegos de PS4, ya que "se basa en parte en la arquitectura de PS4". Todos los juegos de PS4 enviados a certificación a partir de mediados de julio tendrán que ser compatibles con PS5. PS5 tendrá dos versiones - una con lector de discos y otra exclusivamente digital.</p>
+
+
+                    <label>COP:</label><label id="valorUnitario" class="precio"></label><br><br>
+                    <label class="disponible">Disponible</label>
+                </div><br><br>
+                <div class="botones">
+                    <input type="button" onclick="disminuirPedido()" value="-">
+                    <label id="cantidadElementos">1</label>
+                    <input type="button" onclick="aumentarPedido()" value="+">
+                </div><br><br>
+                
+            </div>
+            <script src="js/carrito_compras.js"></script>
+        </fieldset>
+    </center>
+</body>
+
+</html>

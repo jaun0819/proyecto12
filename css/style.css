@@ -1,0 +1,69 @@
+*{
+margin: 0;
+padding: 0;
+}
+/*Clase de Elemento*/
+h1{
+   font-size:  69px;
+   margin: 0 auto 0 auto;
+   text-align: center;
+   color: rgb(200,100,0);
+}
+.aprovecha{
+   font-size: 45px;
+   font-size: 3em;
+   margin: 0 auto 0 auto;
+   font-family: 'Dancing Script', cursive;
+   color: rgb(250,200,100);
+}
+ 
+/* clase no atada a ningun elemento */
+.parrafo {
+   font-size: 45px;
+   font-size: 3em;
+   margin: 0 auto 0 auto;
+   text-align: center ;  
+   font-family: 'Dancing Script', cursive;
+   color: cyan;
+   font-weight:bold;
+  /* font-weight: 600;*/
+}
+/* clase atada a un elemento*/
+p.color-fuente {
+   color:#00FF00;
+  text-align: right;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 40px;
+}
+img {
+   display: block; 
+   float: right;
+} 
+p.fuente-enlace{
+   font-size: 40px;
+   text-align: center;
+   text-align: justify;
+}
+h2 {
+   text-align: center;
+   font-size: 35px;
+   font-family: 'Londrina Solid', cursive;
+font-family: 'Roboto', sans-serif;
+color: rgb(200,100,255);
+}
+.fuente-Architects-Daughter {
+   font-family: 'Architects Daughter';
+}
+/* architects-daughter-regular - latin */
+@font-face {
+   font-family: 'Architects Daughter';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/architects-daughter-v11-latin-regular.eot'); /* IE9 Compat Modes */
+   src: local(''),
+        url('../fonts/architects-daughter-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/architects-daughter-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/architects-daughter-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/architects-daughter-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/architects-daughter-v11-latin-regular.svg#ArchitectsDaughter') format('svg'); /* Legacy iOS */
+ }

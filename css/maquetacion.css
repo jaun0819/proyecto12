@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box     ;
+}
+.main-container{
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+    gap: 30px;
+    grid-template: "encabezado-grip menu-grip menu-grip" 100px
+                    "img-principal img-principal img-principal"350px
+                    "article-1 article-2 article-3" auto;
+}
+.encabezado{
+border-radius: 10px;
+color: white;
+font-size: 1.8em;
+background: rgb(222, 1, 8);
+grid-area: encabezado-grip;
+}
+.menu{
+    border-radius: 10px;
+    color: white;
+    font-size: 1.8em;
+    background: rgb(191, 177, 0);
+    grid-area: menu-grip;
+}
+.img-principal{
+    border-radius: 10px;
+    color: white;
+    font-size: 1.8em;
+    background: rgb(22, 170, 180);
+grid-area: img-principal;
+}
+.article-1{
+    border-radius: 10px;
+    color: white;
+    font-size: 1.8em;
+    background: rgb(55, 107, 219); 
+    grid-area: article-1;
+}
+.article-2{
+    border-radius: 10px;
+    color: white;
+    font-size: 1.8em;
+    background: rgb(55, 107, 219); 
+    grid-area: article-2;
+}
+.article-3{
+    border-radius: 10px;
+    color: white;
+    font-size: 1.8em;
+    background: rgb(55, 107, 219); 
+    grid-area: article-3;
+}

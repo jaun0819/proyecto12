@@ -1,0 +1,23 @@
+h1 {
+ 
+    text-align: center;
+
+}
+ul {
+    width: 100%;
+    margin: 0 auto 0 auto;
+    border-radius: 60%;
+    
+}
+.from {
+     background-position:450%;
+     background-color: rgb(255, 255, 255);
+ 
+ margin: 0 auto 0 auto;
+     width:400px;
+     
+ 
+}
+.fieldset{
+    border-radius: 7px;
+}

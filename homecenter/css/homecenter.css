@@ -1,0 +1,192 @@
+.contenedor{
+    visibility: hidden;
+    width: 300px;
+    height: 450px;
+    position: fixed;
+    bottom: 5px;
+    right: 30px;
+    transform: scale(0.8);
+    transition: 3s transform;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgb(187, 184, 184);
+    
+}
+
+.cerrar{
+margin-left: 10px;
+padding: 4px;
+cursor: pointer;
+font-weight: 100%;
+font-size: 1.1em;
+
+}
+
+.button{
+   
+    color: white;
+    margin:  0 auto;
+    font-size: 1em;
+    height: 2em;
+    width: 70%;
+    background-color: rgb(36, 141, 240);
+    margin-left: 20px;
+    border-radius: 10px;
+} 
+input{
+    font-size: 1.1em;
+    width: 70%;
+    margin-left: 20px;
+    background: white;
+    border-radius: 5px;
+
+}
+.input1{
+    font-size: 1.2em;
+    width:70%;
+    height: 5em;
+    background: rgb(255, 254, 254);
+}
+
+h1,h2{
+    text-align: center
+}
+
+.form-chat-visible{
+    visibility: visible;
+    transition: 1.5s transform;
+    transform: scale(1) translate(-60px,-60px);
+    
+    
+}
+
+.button2{
+    position: fixed;
+    color: white;
+    height: 2em;
+    width:5em;
+    background-color: rgb(17, 134, 243);
+    border-radius: 10PX;
+    cursor: pointer; 
+    transition: 2s ;
+    bottom: 2%;
+    right: 5%;
+
+
+    
+}
+
+
+.encabezado {
+    display: grid;
+    background: rgb(255, 252, 252);
+    inline-size: 100%;
+    border-bottom: 2px solid rgb(158, 146, 146);
+    grid-template: "hamburguer  icon-homecenter  empty  icono-lupa    carrito-compras icono-user" 55px /
+                    40px         70px             1fr  40px               40px            40px;
+}
+
+.encabezadoInvisible{
+    display: none;
+    transition: 5s ;
+}
+.encabezado img{
+    inline-size: 100%;
+}
+.menu-hamburguer {
+    display: flex;
+    grid-area: hamburguer;
+    font-size: 1.75em;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.icono-homecenter {
+    display: flex;
+    grid-area: icon-homecenter;
+    /* width: 100%; */
+    align-items: center;
+    margin-left: 22px;
+    margin-top: 5px;
+    /* align-items: center; */
+}
+.icono-lupa {
+    display: flex;
+    grid-area: icono-lupa;
+    /* text-align: right; */
+    /* margin-right: 150px; */
+    /* justify-content: flex-end; */
+    align-items: center;
+    width: 55%;
+    cursor: pointer;
+}
+
+.carrito-compras {
+    grid-area: carrito-compras;
+    width: 70%;
+    margin-top: 12px;
+    text-align: left;
+}
+.icono-user {
+    grid-area: icono-user;
+    width: 70%;
+    margin-top: 12px;
+    margin-left: 10px;
+}
+
+.encabezado2{
+    display: grid;
+    background: rgb(255, 252, 252);
+    inline-size: 100%;
+    border-bottom: 2px solid rgb(158, 146, 146);
+    grid-template: "  icono-lupa2     busqueda   cerrar"  55px/ 
+                         45px          8fr        90px;
+}
+
+.busqueda{
+    grid-area: busqueda;
+    border: none;
+    border-radius: none;
+    width: 90%;
+    height: 70%;
+}
+.icono-lupa2{
+    display: flex;
+    grid-area: icono-lupa2;
+    margin-left: 22px;
+    margin-top: 10px;
+    width: 55%;
+}            
+  .cerrar{
+    grid-area: cerrar;
+    margin-left: 22px;
+    margin-top: 10px;
+    width: 50%;
+    font-size: 1.6em;
+   transition: 10s;
+  }
+
+  .encabezado2invisible{
+      display: none;
+  }
+
+@media(min-width:600px){
+    .slidermainS{
+        display: block;
+        background-image:url("../img/homecenter.png") ;
+        background-repeat: no-repeat;
+       
+        height: 800px;
+    }
+}
+
+@media(max-width:600px){
+    .slidermainS{
+        display: block;
+        background-image:url("../img/homecenter.png") ;
+        background-repeat: no-repeat;
+        background-position-x: center;
+         background-size: contain;
+        height: 650px;
+    }
+}

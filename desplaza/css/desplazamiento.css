@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+  }
+.toyota1-visible{
+    width: 100%;
+    position: fixed;
+    left: 0;
+}
+.toyota3-visible{
+    width: 100%;
+    position: fixed;
+    left: 0;
+}
+.toyota1-oculta{
+    width: 100%;
+    position: fixed;
+    left: -100%;
+}
+.toyota3-oculta{
+    width: 100%;
+    position: fixed;
+    left: 100%;
+}
+.flecha{
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    
+ 
+}
+
+.mi-circulo{
+    width: 160px;
+    height: 160px;
+    background-color: darkblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 900;
+}

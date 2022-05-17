@@ -1,0 +1,49 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+form{
+    width: 300px;
+    height: 450px;
+    border: 1px solid black;
+    padding: 0 20px 20px 20px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: gainsboro;
+    display: none;
+}
+
+.cerrar-formulario{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 1.7em;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.img-ana{
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+label{
+    display: block;
+}
+input{
+    display: block;
+}
+.style-nombre{
+    margin-top: 20px;
+
+}
+p{
+    line-height: 1.5em;
+    font-size: 1.4em;
+    margin: 40px;
+}

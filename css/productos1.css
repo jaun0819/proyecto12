@@ -1,0 +1,19 @@
+.box-1, .box-2, .box-3, .box-4, .box-5, .box-6, .box-7, .box-8 { 
+    width: 214px;
+    height: 236px;
+    display: inline-block;
+    margin: 25px;
+    line-height: 0;
+}
+img.tarjeta { 
+    display: block;
+    margin: 0 auto;
+}
+p { 
+    text-align: left;
+    font-size: 1.7em;
+}
+.box-9 {
+    display: inline;
+    margin: 0;
+}

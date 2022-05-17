@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactenos.css">
+    <script src="contactenos.js"></script>
+    <title>CONTACTENOS</title>
+    
+</head>
+<body>
+  <fieldset class="from" >
+    <h1>Contactenos</h1>
+    <ul>
+          
+                <label>Ingrese su nombre completo:</label><br>
+                <input type="text" id="nombre" onfocus="this.style.backgroundColor='gainsboro' " 
+                onblur="this.style.backgroundColor='red'" > <br><br>  
+            
+            
+                    
+                <label>Ingrese sus apellido:</label><br>
+            <input type="text" id="apellido" onfocus="this.style.backgroundColor='gainsboro' " 
+                onblur="this.style.backgroundColor='red'" > <br><br>
+
+                <label>Ingrese su consulta, petición, queja o reclamo: </label><br>
+             <input type="text" id="consulta" onfocus="this.style.backgroundColor='gainsboro' " 
+                onblur="this.style.backgroundColor=''" >
+       <br><br>
+   
+
+        Género:<br>
+        <input type="radio" name="Genero" value="Masculino"> Masculino<br>
+        <input type="radio" name="Genero" value="Femenino"> Femenino<br>
+        <input type="radio" name="Genero" value="Indeterminado"> Indeterminado<br><br>
+        Tipo de articulo de interés:<br>
+        <input type="checkbox" name="Genero" value="tipo-accesorio" value="Accesorios de Cocina">Accesorios de Cocina<br>
+        <input type="checkbox" name="Genero" value="tipo-accesorio" value="Accesorios de Sala">Accesorios de Sala<br>
+        <input type="checkbox" name="Genero" value="tipo-accesorio" value="Accesorios de Baños">Accesorios de Baño<br>
+        <input type="checkbox" name="Genero" value="tipo-accesorio" value="Accesorios de Jardin">Accesorios de Jardin<br><br>
+        Ciudad de residencia:<br>
+        <select name="Ciudad">
+            <option value="Pitalito">Pitalito</option>
+            <option value="Neiva">Neiva</option>
+            <option value="Garzón">Garzón</option>
+            <option value="San Agustin">San Agustin</option>
+            <option value="Timana">Timana</option>
+            <option value="Acevedo">Acevedo</option>
+            <option value="Oporapa">Oporapa</option>
+            <option value="Saladoblanco">Saladoblanco</option>
+        <select><br><br>
+        <input type="submit" value="Enviar" onclick=validarInfo();>
+    </ul> 
+  </fieldset>  
+</body> 
+</html>
