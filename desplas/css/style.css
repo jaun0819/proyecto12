@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    
+}
+img {
+    width: 100%;
+}
+.main-menu {
+    position: fixed;
+    z-index: 6;
+    font-size: 1.6em;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    display: block;
+    width: 100%;
+    list-style: none;
+}
+li {
+    text-align: right;
+    margin-right: 60px;
+    margin-top: 35px;
+    display: inline;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.flecha-atras {
+    position: fixed;
+    top: 50vh;
+    left: 50px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.flecha-adelante {
+    position: fixed;
+    top: 50vh;
+    right: 50px;
+    width: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+.avion-visible {
+    position: fixed;
+    left: 0;
+    transition: left 3s;
+}
+.avion-oculta {
+    position: fixed;
+    left: -100%;
+    transition: left 3s;
+}
+.pueblo-visible {
+    position: fixed;
+    left: 0;
+    transition: left 3s;
+}
+.pueblo-oculta-derecha {
+    position: fixed;
+    left: 100%;
+    transition: left 3s;
+}
+.pueblo-oculta-izquierda {
+    position: fixed;
+    left: -100%;
+    transition: left 3s;
+}
+.montana-visible {
+    height: 100%;
+    position: fixed;
+    left: 0;
+    transition: left 3s;
+}
+.montana-oculta {
+    
+    position: fixed;
+    left: 100%;
+    transition: left 3s;
+}
+
+.div-circulos {
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+.circulo{
+    width: 40px;
+    height: 10px;
+    border-radius: 5px;
+}
+.circulo-1 {
+    margin-right: 10px;
+}
+.circulo-2 {
+    margin-left: 10px;
+}
+.circulo-3 {
+    margin-left: 20px;
+}
+.color-claro{
+    background-color: black;
+}
+.color-oscura{
+    background-color: rgb(173, 149, 149);
+}
