@@ -69,13 +69,13 @@ a {
     transition: left 3s;
 }
 .montana-visible {
-    height: 100%;
+   height: 100%;
     position: fixed;
     left: 0;
     transition: left 3s;
 }
 .montana-oculta {
-    
+    height: 100%;
     position: fixed;
     left: 100%;
     transition: left 3s;
